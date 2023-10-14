@@ -1,0 +1,2 @@
+This is a demo file for testing File handling in python.
+Python is very easy to learn.
