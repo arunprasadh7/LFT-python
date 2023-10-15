@@ -15,6 +15,9 @@ class User():
     def login(self):
         print(f'Logging in .')
 
+    def greet(self):
+     	print('Hello user.This is a user class method.')
+
 
 # Inheritance
 
@@ -22,6 +25,9 @@ class User():
 class Student(User):  # Student inherits User
     def greet_student(self):
         print('Hi student...')
+
+    def greet(self):
+    	print('Hello student. This is a student class method.')
 
 # creaiing another subclass Faculty
 

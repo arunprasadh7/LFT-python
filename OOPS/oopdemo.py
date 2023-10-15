@@ -55,3 +55,11 @@ sf1.register()
 sf1.login()
 sf1.greet_student()
 sf1.greet_faculty()
+
+#method overiding
+#creating a method greet in user class and overiding it in student subclass
+print('\nMethod overiding')
+u1 = User()
+u1.greet()
+
+s1.greet()
