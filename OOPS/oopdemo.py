@@ -90,3 +90,7 @@ print(sup2.password)
 print(sup2.course)
 print(sup2.fee)
 sup2.greet_student()
+
+print()
+sf1 = StudentFaculty('Invoker','tips','Blockchain','100k')
+sf1.greet()

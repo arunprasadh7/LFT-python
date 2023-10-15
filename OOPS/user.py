@@ -58,4 +58,7 @@ class Tempfaculty(Faculty):
 
 
 class StudentFaculty(Student, Faculty):
-    pass
+
+    def greet(self):
+        super().greet_student()
+        print('Hello student Faculty.')
