@@ -63,3 +63,13 @@ u1 = User()
 u1.greet()
 
 s1.greet()
+
+#method chaining - joining multiple method in single statement
+#the prior function must return self inorder to chain or else error will be thrown
+print('\nMethod Chaining:')
+u2 = User()
+u2.register()
+u2.login()
+#the above code can be simplified as
+print('Chained code:')
+u2.login().register() #calling two methods in single statement(method chaining).login returns self

@@ -14,6 +14,7 @@ class User():
 
     def login(self):
         print(f'Logging in .')
+        return self
 
     def greet(self):
      	print('Hello user.This is a user class method.')
