@@ -75,22 +75,24 @@ from user import *  # imports entire user class
 # u2.login().register() #calling two methods in single statement(method chaining).login returns self
 
 
-#Super function
-print('\nSuper function:')
-sup1 = Student('Prasadh','99433','python', '30k')
-print(sup1.username)
-print(sup1.password)
-print(sup1.course)
-print(sup1.fee)
-sup1.greet_student()
+# #Super function
+# print('\nSuper function:')
+# sup1 = Student('Prasadh','99433','python', '30k')
+# print(sup1.username)
+# print(sup1.password)
+# print(sup1.course)
+# print(sup1.fee)
+# sup1.greet_student()
 
-sup2 = Student('Storm', 'ttyl','Java','50k')
-print(sup2.username)
-print(sup2.password)
-print(sup2.course)
-print(sup2.fee)
-sup2.greet_student()
+# sup2 = Student('Storm', 'ttyl','Java','50k')
+# print(sup2.username)
+# print(sup2.password)
+# print(sup2.course)
+# print(sup2.fee)
+# sup2.greet_student()
 
-print()
-sf1 = StudentFaculty('Invoker','tips','Blockchain','100k')
-sf1.greet()
+# print()
+# sf1 = StudentFaculty('Invoker','tips','Blockchain','100k')
+# sf1.greet()
+
+
